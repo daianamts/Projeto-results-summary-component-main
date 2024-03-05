@@ -1,0 +1,217 @@
+body {
+    background: hsl(240, 47%, 96%);
+    
+    font-family: 'HankenGrotesk', sans-serif;
+
+}
+
+main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    margin-top: 180px;
+    width: 500px;
+    border-radius: 22px;
+
+}
+
+
+
+.Container1 {
+    background-color: blue;
+    gap: 10px;
+    text-align: center;
+    padding: 30px;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+
+.Container2 {
+   
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    gap: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+#titulo-cont1 {
+    color: rgb(216, 216, 216);
+    font-weight: bold;
+}
+
+.valores-cont1 {
+
+    font-size: 10px;
+    margin-top: 15px;
+    color: rgb(216, 216, 216);
+}
+
+.resultado-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+
+.resultado-score span {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+
+#texto1-cont1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: white;
+}
+
+#texto2-cont2 {
+    margin-top: 15px;
+    color: rgb(190, 190, 190);
+    font-size: 13px;
+}
+
+#titulo-cont2 {
+    color: black;
+    font-weight: bold;
+}
+
+.Container2 ul {
+    margin-top: 15px;
+    font-size: 12px;
+   font-weight:bold;
+   
+
+}
+
+.Container2 #reaction {
+    background-color:hsl(0, 50%, 98%);
+    color: hsl(0, 65%, 55%);
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+
+}
+
+.Container2 #memory {
+    background-color: rgb(252, 251, 244);
+    color: hsl(39, 100%, 56%);
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+.Container2 #verbal {
+    background-color:hsl(167, 86%, 95%);
+    color: hsl(166, 100%, 37%);
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+
+.Container2 #visual {
+    background-color: hsl(235, 48%, 95%);
+    color: hsl(234, 85%, 45%);
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+#continue {
+    margin-top: 20px;
+    text-align: center;
+    background-color:hsl(256, 15%, 25%);
+    color:ghostwhite;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+    height: 30px;
+    cursor: pointer;
+    padding: 8px
+}
+
+#continue:hover{
+    background-color:hsl(262, 97%, 26%); 
+    transform: scale(1.05);
+}
+
+.Container2 #reaction img {
+    margin-right: 10px;
+}
+
+.Container2 #memory img {
+    margin-right: 10px;
+}
+
+.Container2 #verbal img {
+    margin-right: 10px;
+
+}
+
+.Container2 #visual img {
+    margin-right: 10px;
+
+}
+
+#reaction span{
+    margin-left: 50px;
+    color: black;
+    
+}
+
+#memory span{
+    margin-left: 55px;
+    color: black;
+}
+
+#verbal span{
+    margin-left: 65px;
+    color: black;
+}
+
+#visual span{
+    margin-left: 66px;
+    color: black;
+}
+
+
+.Container2 #reaction:hover{
+    transform: scale(1.05);
+}
+.Container2 #memory:hover{
+    transform: scale(1.05);
+}
+.Container2 #verbal:hover{
+    transform: scale(1.05);
+}
+.Container2 #visual:hover{
+    transform: scale(1.05);
+}
+
