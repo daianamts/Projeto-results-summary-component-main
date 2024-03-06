@@ -3,14 +3,17 @@ body {
     
     font-family: 'HankenGrotesk', sans-serif;
 
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    height: 100vh;
+
 }
 
 main {
     background-color: white;
     display: flex;
     justify-content: center;
-    margin-left: 450px;
-    margin-top: 180px;
     width: 500px;
     border-radius: 22px;
 
